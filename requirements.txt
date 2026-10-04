@@ -1,0 +1,12 @@
+# ── Dependencies for: Basic Chatbot using Gemini LLM API ──────────────────
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# ─────────────────────────────────────────────────────────────────────────
+# Google's official Python SDK for Gemini AI models (new SDK - replaces google-generativeai)
+# Used for: connecting to Gemini API, creating the model, sending messages
+google-genai>=1.0.0
+# Loads environment variables from the .env file into Python
+# Used for: securely reading the GEMINI_API_KEY without hardcoding it
+python-dotenv>=1.0.0
